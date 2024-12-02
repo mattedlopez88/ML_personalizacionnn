@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_personalizacion", "ML_pe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_API1", "ML_API1\ML_API1.csproj", "{BA10A997-F6AF-4CEC-B6EB-870F6F5090D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_Maui", "ML_Maui\ML_Maui.csproj", "{CA146315-1375-4F47-B5F2-E41398FEA525}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,11 @@ Global
 		{BA10A997-F6AF-4CEC-B6EB-870F6F5090D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA10A997-F6AF-4CEC-B6EB-870F6F5090D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA10A997-F6AF-4CEC-B6EB-870F6F5090D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA146315-1375-4F47-B5F2-E41398FEA525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA146315-1375-4F47-B5F2-E41398FEA525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA146315-1375-4F47-B5F2-E41398FEA525}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA146315-1375-4F47-B5F2-E41398FEA525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA146315-1375-4F47-B5F2-E41398FEA525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
