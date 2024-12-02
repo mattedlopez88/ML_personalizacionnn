@@ -1,10 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using ML_API.Data;
-using ML_API.Controllers;
+using ML_API1.Data;
+using ML_API1.Controllers;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<ML_APIContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ML_APIContext") ?? throw new InvalidOperationException("Connection string 'ML_APIContext' not found.")));
+builder.Services.AddDbContext<ML_API1Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ML_API1Context") ?? throw new InvalidOperationException("Connection string 'ML_API1Context' not found.")));
 
 // Add services to the container.
 

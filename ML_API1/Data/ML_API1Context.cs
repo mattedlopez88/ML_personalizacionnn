@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ML_personalizacion.Models;
 
-namespace ML_API.Data
+namespace ML_API1.Data
 {
-    public class ML_APIContext : DbContext
+    public class ML_API1Context : DbContext
     {
-        public ML_APIContext (DbContextOptions<ML_APIContext> options)
+        public ML_API1Context (DbContextOptions<ML_API1Context> options)
             : base(options)
         {
         }
