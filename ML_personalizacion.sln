@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35521.163 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_personalizacion", "ML_personalizacion\ML_personalizacion.csproj", "{BD08577F-50AA-4CB3-BF12-8CF9D3C5D2EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_API", "ML_API\ML_API.csproj", "{2068B3A8-89F7-425A-8711-7E8DB4B6B1EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BD08577F-50AA-4CB3-BF12-8CF9D3C5D2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD08577F-50AA-4CB3-BF12-8CF9D3C5D2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD08577F-50AA-4CB3-BF12-8CF9D3C5D2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2068B3A8-89F7-425A-8711-7E8DB4B6B1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2068B3A8-89F7-425A-8711-7E8DB4B6B1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2068B3A8-89F7-425A-8711-7E8DB4B6B1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2068B3A8-89F7-425A-8711-7E8DB4B6B1EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
